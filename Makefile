@@ -3,7 +3,7 @@ CXXFLAGS = -Wall -Iinclude
 
 SRCS = $(wildcard src/*.cpp)
 OBJS = $(SRCS:.cpp=.o)
-TARGET = tp8
+TARGET = tp9
 
 all: $(TARGET)
 
